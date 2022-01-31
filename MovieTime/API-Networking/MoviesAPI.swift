@@ -65,4 +65,4 @@ struct Movie: Codable, Identifiable {
         }
     }
 }
-
+ 

@@ -12,6 +12,6 @@ struct MovieTimeApp: App {
     var body: some Scene {
         WindowGroup {
             MoviesListView(viewModel: MoviesListViewModel())
-        }
+        } 
     }
 }

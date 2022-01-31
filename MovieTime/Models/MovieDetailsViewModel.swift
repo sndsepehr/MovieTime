@@ -17,7 +17,6 @@ final class MovieDetailViewModel: ObservableObject {
     
     init(movieID: Int) {
         state = .idle(movieID)
-        
         Publishers.system(
             initial: state,
             reduce: Self.reduce,

@@ -28,7 +28,7 @@ struct MovieDetailView: View {
         case .loaded(let movie):
             return self.movie(movie).toAnyView()
         }
-    }
+    } 
     
     private func movie(_ movie: MovieDetailViewModel.MovieDetail) -> some View {
         ScrollView (showsIndicators: false) {

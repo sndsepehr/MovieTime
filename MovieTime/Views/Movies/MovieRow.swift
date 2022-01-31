@@ -20,7 +20,7 @@ struct MovieRow: View {
                     placeholder: spinner,
                     configuration: { $0.resizable().renderingMode(.original) }
                 )
-            }
+            } 
             .aspectRatio(contentMode: .fit)
             .frame(width: 90, height: 100, alignment: .leading)
             

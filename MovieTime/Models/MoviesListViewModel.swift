@@ -38,8 +38,7 @@ final class MoviesListViewModel: ObservableObject {
     }
 }
 
-// MARK: - Inner Types
-
+// MARK: - Inner Types Decleration
 extension MoviesListViewModel {
     enum State {
         case idle

@@ -8,6 +8,7 @@
 
 import Combine
 import SwiftUI
+ 
 
 struct MoviesListView: View {
     @ObservedObject var viewModel: MoviesListViewModel
@@ -32,6 +33,7 @@ struct MoviesListView: View {
             return list(of: movies).toAnyView()
         }
     }
+    
     
     private func list(of movies: [MoviesListViewModel.MovieListItem]) -> some View {
         return List(movies) { movie in
