@@ -19,7 +19,7 @@ final class MovieDetailViewModel: ObservableObject {
         state = .idle(movieID)
         Publishers.system(
             initial: state,
-            reduce: Self.reduce,
+            reduce: Self.reduce, 
             scheduler: RunLoop.main,
             feedbacks: [
                 Self.whenLoading(),
