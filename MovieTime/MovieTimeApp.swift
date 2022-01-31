@@ -2,7 +2,7 @@
 //  MovieTimeApp.swift
 //  MovieTime
 //
-//  Created by SDN SPR on 1/20/22.
+//  Created by Saifuddin Sepehr on 1/24/22.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct MovieTimeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MoviesListView(viewModel: MoviesListViewModel())
         }
     }
 }
